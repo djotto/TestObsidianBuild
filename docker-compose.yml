@@ -4,8 +4,5 @@ services:
     build: .
     command: npx quartz build --output=public/docroot
     volumes:
-      - ./quartz.config.ts:/usr/src/app/quartz.config.ts
-      - ./quartz.layout.ts:/usr/src/app/quartz.layout.ts
-      - ./custom.scss:/usr/src/app/quartz/styles/custom.scss
-      - ./content:/usr/src/app/content
+      - ./TestObsidianBuild:/usr/src/app/content
       - ./public:/usr/src/app/public

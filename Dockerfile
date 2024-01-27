@@ -10,6 +10,3 @@ RUN git clone -b v4 https://github.com/jackyzha0/quartz.git .
 
 # Install app dependencies
 RUN npm install
-
-EXPOSE 3001
-EXPOSE 8080
